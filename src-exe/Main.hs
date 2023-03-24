@@ -74,7 +74,7 @@ main = do
   putStrLn "\n"
   readFile _LOGO_PATH_ >>= \a -> putStrLn a
   putStrLn "Welcome to Mastermind!\n"
-  putStrLn "Mastermind: A code-breaking game where one player creates a secret code using 4 colors (these can be repeated), and the other player attempts to guess the code through a process of deduction. The code-maker provides feedback on each guess, indicating the number of that are the correct color and in the correct position, as well as the number of that are the correct color but in the wrong position.\n"
+  putStrLn "Mastermind: A code-breaking game where one player creates a secret code using between 1 to 6 colors (these can be repeated), and the other player attempts to guess the code through a process of deduction. The code-maker provides feedback on each guess, indicating the number of that are the correct color and in the correct position, as well as the number of that are the correct color but in the wrong position.\n"
   putStrLn "Available colors: Red, Green, Blue, Yellow, Magenta, Cyan\n"
   secret <- generateCode 4
   evalStateT playGame (20, secret)
