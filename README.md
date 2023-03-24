@@ -14,7 +14,7 @@ This repository contains a preconfigured Haskell development environment, allowi
 4. Wait for the environment to build. This can take a while the first time.
 5. Click on More Actions...
 6. Select "Open in Browser" as your editor.
-7. In the terminal use cabal run command and play. _(if you are in the ghci prelude you have to use the :q command)_
+7. In the terminal use cabal run command and play. _(if you are in the ghci you have to use the :q command)_
 
 ## Principal terms in the game
 
