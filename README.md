@@ -14,14 +14,11 @@ The environment contains a skeleton for a simple Haskell project, designed as a 
 4. Wait for the environment to build. This can take a while the first time.
 5. Select "VS Code Browser" as your editor.
 
-## Build Your Project
+## How to Play Mastermind
 
-This template contains a basic structure for a simple Haskell project. Add your project code to the empty `*.hs` files:
+Mastermind is a difficult puzzle game, in which one player tries to guess the code their opponent comes up with. Originally a board game, though with roots in earlier pen-and-paper games, Mastermind is now widely available online and for mobile devices as well.
 
-* `scr-exe/Main.hs`: to run your application (this is what will be used if you )
+You can also play Mastermind with paper and pen if you don't have the board game or video game version.
 
-Add any additional packages you need for your project below `base` in the `build-depends` section of `mastermind.cabal`. Follow instructions if you encounter any errors due to a "hidden package": these refer to packages that are part of the standard library but aren't imported into a Haskell project by default. The editor tooling will identify the name of the package you need to add to `build-depends` in such cases.
+[Playing Mastermind](https://www.wikihow.com/Play-Mastermind)
 
-Use `cabal build` in the terminal to build your code.
-
-Use `cabal run` to run your completed program.
