@@ -17,16 +17,17 @@ name:               mastermind
 version:            0.1.0.0
 
 -- A short (one-line) description of the package.
-synopsis:
+synopsis: EMURGO Academy Haskell Course: Solo Project (Welcome to Mastermind!)
 
 -- A longer description of the package.
--- description:
+description: Mastermind A code-breaking game where one player creates a secret code using 4 colors (these can be repeated), and the other player attempts to guess the code through a process of deduction. The code-maker provides feedback on each guess, indicating the number of that are the correct color and in the correct position, as well as the number of that are the correct color but in the wrong position. 
+This repository contains a preconfigured Haskell development environment, allowing you to start coding in Haskell with zero installation using Gitpod and a browser-based version of VS Code.
 
 -- URL for the project homepage or repository.
-homepage:
+homepage: https://github.com/CL-LLC/mastermaind-emurgo-haskell
 
 -- A URL where users can report bugs.
--- bug-reports:
+bug-reports: https://github.com/CL-LLC/mastermaind-emurgo-haskell/issues
 
 -- The license under which the package is released.
 license:            MIT
@@ -64,6 +65,7 @@ executable mastermind
                     , random
     -- Directories containing source files.
     hs-source-dirs:   src-exe
+                      assets
 
     -- Base language which the package is written in.
     default-language: Haskell2010
